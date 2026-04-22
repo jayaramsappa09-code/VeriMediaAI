@@ -8,7 +8,7 @@
   'use strict';
 
   // ── Config ────────────────────────────────────────────────────────────────
-  const API_BASE = window.VERIMEDIA_API_URL || 'https://verimedia-backend.onrender.com';
+  const API_BASE = window.VERIMEDIA_API_URL || 'https://verrimedia-ai-backend.onrender.com/api/health';
 
   // ── Helpers ───────────────────────────────────────────────────────────────
   async function post(path, body, apiKey) {
